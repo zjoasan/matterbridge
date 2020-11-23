@@ -6,9 +6,9 @@ import (
 	"path/filepath"
 	"strconv"
 
-	"github.com/42wim/matterbridge/bridge"
-	"github.com/42wim/matterbridge/bridge/config"
 	"github.com/keybase/go-keybase-chat-bot/kbchat"
+	"github.com/zjoasan/matterbridge/bridge"
+	"github.com/zjoasan/matterbridge/bridge/config"
 )
 
 // Bkeybase bridge structure

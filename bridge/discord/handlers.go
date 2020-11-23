@@ -1,8 +1,8 @@
 package bdiscord
 
 import (
-	"github.com/42wim/matterbridge/bridge/config"
 	"github.com/matterbridge/discordgo"
+	"github.com/zjoasan/matterbridge/bridge/config"
 )
 
 func (b *Bdiscord) messageDelete(s *discordgo.Session, m *discordgo.MessageDelete) { //nolint:unparam

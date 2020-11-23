@@ -11,11 +11,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/42wim/matterbridge/bridge"
-	"github.com/42wim/matterbridge/bridge/config"
-	"github.com/42wim/matterbridge/bridge/helper"
 	"github.com/lrstanley/girc"
 	stripmd "github.com/writeas/go-strip-markdown"
+	"github.com/zjoasan/matterbridge/bridge"
+	"github.com/zjoasan/matterbridge/bridge/config"
+	"github.com/zjoasan/matterbridge/bridge/helper"
 
 	// We need to import the 'data' package as an implicit dependency.
 	// See: https://godoc.org/github.com/paulrosania/go-charset/charset

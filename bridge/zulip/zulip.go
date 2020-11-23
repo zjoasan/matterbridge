@@ -8,10 +8,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/42wim/matterbridge/bridge"
-	"github.com/42wim/matterbridge/bridge/config"
-	"github.com/42wim/matterbridge/bridge/helper"
 	gzb "github.com/matterbridge/gozulipbot"
+	"github.com/zjoasan/matterbridge/bridge"
+	"github.com/zjoasan/matterbridge/bridge/config"
+	"github.com/zjoasan/matterbridge/bridge/helper"
 )
 
 type Bzulip struct {

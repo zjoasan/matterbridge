@@ -7,9 +7,9 @@ import (
 	"strings"
 	"unicode/utf16"
 
-	"github.com/42wim/matterbridge/bridge/config"
-	"github.com/42wim/matterbridge/bridge/helper"
 	tgbotapi "github.com/go-telegram-bot-api/telegram-bot-api"
+	"github.com/zjoasan/matterbridge/bridge/config"
+	"github.com/zjoasan/matterbridge/bridge/helper"
 )
 
 func (b *Btelegram) handleUpdate(rmsg *config.Message, message, posted, edited *tgbotapi.Message) *tgbotapi.Message {

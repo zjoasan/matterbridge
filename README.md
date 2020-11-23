@@ -28,7 +28,7 @@ And more...
 
 ---
 
-[![Download stable](https://img.shields.io/github/release/42wim/matterbridge.svg?label=download%20stable)](https://github.com/42wim/matterbridge/releases/latest)
+[![Download stable](https://img.shields.io/github/release/42wim/matterbridge.svg?label=download%20stable)](https://github.com/zjoasan/matterbridge/releases/latest)
 [![Maintainability](https://api.codeclimate.com/v1/badges/82dff70ef2ba85a6173a/maintainability)](https://codeclimate.com/github/42wim/matterbridge/maintainability)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/82dff70ef2ba85a6173a/test_coverage)](https://codeclimate.com/github/42wim/matterbridge/test_coverage)<br />
 
@@ -75,14 +75,14 @@ And more...
 
 ## Features
 
-- [Support bridging between any protocols](https://github.com/42wim/matterbridge/wiki/Features#support-bridging-between-any-protocols)
-- [Support multiple gateways(bridges) for your protocols](https://github.com/42wim/matterbridge/wiki/Features#support-multiple-gatewaysbridges-for-your-protocols)
-- [Message edits and deletes](https://github.com/42wim/matterbridge/wiki/Features#message-edits-and-deletes)
+- [Support bridging between any protocols](https://github.com/zjoasan/matterbridge/wiki/Features#support-bridging-between-any-protocols)
+- [Support multiple gateways(bridges) for your protocols](https://github.com/zjoasan/matterbridge/wiki/Features#support-multiple-gatewaysbridges-for-your-protocols)
+- [Message edits and deletes](https://github.com/zjoasan/matterbridge/wiki/Features#message-edits-and-deletes)
 - Preserves threading when possible
-- [Attachment / files handling](https://github.com/42wim/matterbridge/wiki/Features#attachment--files-handling)
-- [Username and avatar spoofing](https://github.com/42wim/matterbridge/wiki/Features#username-and-avatar-spoofing)
-- [Private groups](https://github.com/42wim/matterbridge/wiki/Features#private-groups)
-- [API](https://github.com/42wim/matterbridge/wiki/Features#api)
+- [Attachment / files handling](https://github.com/zjoasan/matterbridge/wiki/Features#attachment--files-handling)
+- [Username and avatar spoofing](https://github.com/zjoasan/matterbridge/wiki/Features#username-and-avatar-spoofing)
+- [Private groups](https://github.com/zjoasan/matterbridge/wiki/Features#private-groups)
+- [API](https://github.com/zjoasan/matterbridge/wiki/Features#api)
 
 ### Natively supported
 
@@ -117,7 +117,7 @@ And more...
 ### API
 
 The API is basic at the moment.
-More info and examples on the [wiki](https://github.com/42wim/matterbridge/wiki/Api).
+More info and examples on the [wiki](https://github.com/zjoasan/matterbridge/wiki/Api).
 
 Used by the projects below. Feel free to make a PR to add your project to this list.
 
@@ -147,16 +147,16 @@ Questions or want to test on your favorite platform? Join below:
 
 ## Screenshots
 
-See <https://github.com/42wim/matterbridge/wiki>
+See <https://github.com/zjoasan/matterbridge/wiki>
 
 ## Installing / upgrading
 
 ### Binaries
 
-- Latest stable release [v1.20.0](https://github.com/42wim/matterbridge/releases/latest)
-- Development releases (follows master) can be downloaded [here](https://github.com/42wim/matterbridge/actions) selecting the latest green build and then artifacts.
+- Latest stable release [v1.20.0](https://github.com/zjoasan/matterbridge/releases/latest)
+- Development releases (follows master) can be downloaded [here](https://github.com/zjoasan/matterbridge/actions) selecting the latest green build and then artifacts.
 
-To install or upgrade just download the latest [binary](https://github.com/42wim/matterbridge/releases/latest) and follow the instructions on the [howto](https://github.com/42wim/matterbridge/wiki/How-to-create-your-config) for a step by step walkthrough for creating your configuration.
+To install or upgrade just download the latest [binary](https://github.com/zjoasan/matterbridge/releases/latest) and follow the instructions on the [howto](https://github.com/zjoasan/matterbridge/wiki/How-to-create-your-config) for a step by step walkthrough for creating your configuration.
 
 ### Packages
 
@@ -165,13 +165,13 @@ To install or upgrade just download the latest [binary](https://github.com/42wim
 
 ## Building
 
-Most people just want to use binaries, you can find those [here](https://github.com/42wim/matterbridge/releases/latest)
+Most people just want to use binaries, you can find those [here](https://github.com/zjoasan/matterbridge/releases/latest)
 
 If you really want to build from source, follow these instructions:
 Go 1.12+ is required. Make sure you have [Go](https://golang.org/doc/install) properly installed.
 
 ```bash
-go get github.com/42wim/matterbridge
+go get github.com/zjoasan/matterbridge
 ```
 
 You should now have matterbridge binary in the ~/go/bin directory:
@@ -185,15 +185,15 @@ matterbridge
 
 ### Basic configuration
 
-See [howto](https://github.com/42wim/matterbridge/wiki/How-to-create-your-config) for a step by step walkthrough for creating your configuration.
+See [howto](https://github.com/zjoasan/matterbridge/wiki/How-to-create-your-config) for a step by step walkthrough for creating your configuration.
 
 ### Settings
 
-All possible [settings](https://github.com/42wim/matterbridge/wiki/Settings) for each bridge.
+All possible [settings](https://github.com/zjoasan/matterbridge/wiki/Settings) for each bridge.
 
 ### Advanced configuration
 
-- [matterbridge.toml.sample](https://github.com/42wim/matterbridge/blob/master/matterbridge.toml.sample) for documentation and an example.
+- [matterbridge.toml.sample](https://github.com/zjoasan/matterbridge/blob/master/matterbridge.toml.sample) for documentation and an example.
 
 ### Examples
 
@@ -257,7 +257,7 @@ RemoteNickFormat="[{PROTOCOL}/{BRIDGE}] <{NICK}> "
 
 ## Running
 
-See [howto](https://github.com/42wim/matterbridge/wiki/How-to-create-your-config) for a step by step walkthrough for creating your configuration.
+See [howto](https://github.com/zjoasan/matterbridge/wiki/How-to-create-your-config) for a step by step walkthrough for creating your configuration.
 
 ```bash
 Usage of ./matterbridge:
@@ -273,15 +273,15 @@ Usage of ./matterbridge:
 
 ### Docker
 
-Please take a look at the [Docker Wiki page](https://github.com/42wim/matterbridge/wiki/Deploy:-Docker) for more information.
+Please take a look at the [Docker Wiki page](https://github.com/zjoasan/matterbridge/wiki/Deploy:-Docker) for more information.
 
 ## Changelog
 
-See [changelog.md](https://github.com/42wim/matterbridge/blob/master/changelog.md)
+See [changelog.md](https://github.com/zjoasan/matterbridge/blob/master/changelog.md)
 
 ## FAQ
 
-See [FAQ](https://github.com/42wim/matterbridge/wiki/FAQ)
+See [FAQ](https://github.com/zjoasan/matterbridge/wiki/FAQ)
 
 ## Related projects
 

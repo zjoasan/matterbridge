@@ -4,9 +4,9 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"github.com/42wim/matterbridge/bridge"
 	"github.com/sirupsen/logrus"
 	"github.com/stretchr/testify/assert"
+	"github.com/zjoasan/matterbridge/bridge"
 )
 
 func TestExtractTopicOrPurpose(t *testing.T) {

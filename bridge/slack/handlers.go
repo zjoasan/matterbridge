@@ -6,9 +6,9 @@ import (
 	"html"
 	"time"
 
-	"github.com/42wim/matterbridge/bridge/config"
-	"github.com/42wim/matterbridge/bridge/helper"
 	"github.com/slack-go/slack"
+	"github.com/zjoasan/matterbridge/bridge/config"
+	"github.com/zjoasan/matterbridge/bridge/helper"
 )
 
 // ErrEventIgnored is for events that should be ignored

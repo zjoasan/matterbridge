@@ -8,12 +8,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/42wim/matterbridge/bridge/config"
-	"github.com/42wim/matterbridge/bridge/helper"
 	"github.com/lrstanley/girc"
 	"github.com/missdeer/golib/ic"
 	"github.com/paulrosania/go-charset/charset"
 	"github.com/saintfish/chardet"
+	"github.com/zjoasan/matterbridge/bridge/config"
+	"github.com/zjoasan/matterbridge/bridge/helper"
 
 	// We need to import the 'data' package as an implicit dependency.
 	// See: https://godoc.org/github.com/paulrosania/go-charset/charset

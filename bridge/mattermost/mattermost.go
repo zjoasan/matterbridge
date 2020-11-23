@@ -4,12 +4,12 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/42wim/matterbridge/bridge"
-	"github.com/42wim/matterbridge/bridge/config"
-	"github.com/42wim/matterbridge/bridge/helper"
-	"github.com/42wim/matterbridge/matterclient"
-	"github.com/42wim/matterbridge/matterhook"
 	"github.com/rs/xid"
+	"github.com/zjoasan/matterbridge/bridge"
+	"github.com/zjoasan/matterbridge/bridge/config"
+	"github.com/zjoasan/matterbridge/bridge/helper"
+	"github.com/zjoasan/matterbridge/matterclient"
+	"github.com/zjoasan/matterbridge/matterhook"
 )
 
 type Bmattermost struct {

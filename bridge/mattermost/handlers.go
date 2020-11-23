@@ -1,10 +1,10 @@
 package bmattermost
 
 import (
-	"github.com/42wim/matterbridge/bridge/config"
-	"github.com/42wim/matterbridge/bridge/helper"
-	"github.com/42wim/matterbridge/matterclient"
 	"github.com/mattermost/mattermost-server/v5/model"
+	"github.com/zjoasan/matterbridge/bridge/config"
+	"github.com/zjoasan/matterbridge/bridge/helper"
+	"github.com/zjoasan/matterbridge/matterclient"
 )
 
 // handleDownloadAvatar downloads the avatar of userid from channel

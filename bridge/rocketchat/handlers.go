@@ -1,8 +1,8 @@
 package brocketchat
 
 import (
-	"github.com/42wim/matterbridge/bridge/config"
 	"github.com/matterbridge/Rocket.Chat.Go.SDK/models"
+	"github.com/zjoasan/matterbridge/bridge/config"
 )
 
 func (b *Brocketchat) handleRocket() {

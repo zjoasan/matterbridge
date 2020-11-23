@@ -3,11 +3,11 @@ package bmattermost
 import (
 	"strings"
 
-	"github.com/42wim/matterbridge/bridge/config"
-	"github.com/42wim/matterbridge/bridge/helper"
-	"github.com/42wim/matterbridge/matterclient"
-	"github.com/42wim/matterbridge/matterhook"
 	"github.com/mattermost/mattermost-server/v5/model"
+	"github.com/zjoasan/matterbridge/bridge/config"
+	"github.com/zjoasan/matterbridge/bridge/helper"
+	"github.com/zjoasan/matterbridge/matterclient"
+	"github.com/zjoasan/matterbridge/matterhook"
 )
 
 func (b *Bmattermost) doConnectWebhookBind() error {

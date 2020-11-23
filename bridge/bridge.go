@@ -6,8 +6,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/42wim/matterbridge/bridge/config"
 	"github.com/sirupsen/logrus"
+	"github.com/zjoasan/matterbridge/bridge/config"
 )
 
 type Bridger interface {

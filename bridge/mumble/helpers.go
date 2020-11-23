@@ -7,9 +7,9 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/42wim/matterbridge/bridge/config"
 	"github.com/mattn/godown"
 	"github.com/vincent-petithory/dataurl"
+	"github.com/zjoasan/matterbridge/bridge/config"
 )
 
 type MessagePart struct {

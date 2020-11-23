@@ -3,8 +3,8 @@ package bkeybase
 import (
 	"strconv"
 
-	"github.com/42wim/matterbridge/bridge/config"
 	"github.com/keybase/go-keybase-chat-bot/kbchat/types/chat1"
+	"github.com/zjoasan/matterbridge/bridge/config"
 )
 
 func (b *Bkeybase) handleKeybase() {

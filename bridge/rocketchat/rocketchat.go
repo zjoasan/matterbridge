@@ -5,15 +5,15 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/42wim/matterbridge/bridge"
-	"github.com/42wim/matterbridge/bridge/config"
-	"github.com/42wim/matterbridge/bridge/helper"
-	"github.com/42wim/matterbridge/hook/rockethook"
-	"github.com/42wim/matterbridge/matterhook"
 	lru "github.com/hashicorp/golang-lru"
 	"github.com/matterbridge/Rocket.Chat.Go.SDK/models"
 	"github.com/matterbridge/Rocket.Chat.Go.SDK/realtime"
 	"github.com/matterbridge/Rocket.Chat.Go.SDK/rest"
+	"github.com/zjoasan/matterbridge/bridge"
+	"github.com/zjoasan/matterbridge/bridge/config"
+	"github.com/zjoasan/matterbridge/bridge/helper"
+	"github.com/zjoasan/matterbridge/hook/rockethook"
+	"github.com/zjoasan/matterbridge/matterhook"
 )
 
 type Brocketchat struct {

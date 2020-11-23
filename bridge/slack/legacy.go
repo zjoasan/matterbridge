@@ -3,9 +3,9 @@ package bslack
 import (
 	"errors"
 
-	"github.com/42wim/matterbridge/bridge"
-	"github.com/42wim/matterbridge/matterhook"
 	"github.com/slack-go/slack"
+	"github.com/zjoasan/matterbridge/bridge"
+	"github.com/zjoasan/matterbridge/matterhook"
 )
 
 type BLegacy struct {
